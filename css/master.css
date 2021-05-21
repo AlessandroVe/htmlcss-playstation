@@ -155,3 +155,8 @@ ol, ul {
     vertical-align: super;
     font-size: 10px;
 }
+/* /* SHOW-PS5 +  BANNER-ITEMS  */
+#show-ps5+.banner-items{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+/*  */
