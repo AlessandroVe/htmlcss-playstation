@@ -1,13 +1,29 @@
+.pd{
+    padding: 0 8.5vw ;
+}
+body{
+    overflow-x: hidden;
+}
+/* little-banner */
+#little-banner{
+    background-color: black;
+    height: 50px;
+}
+#little-banner>img{
+    height: 30%;
+}
+/*  */
 /* NAV  *//* sovrascrizione navbar si bootstrap */
+#navbar-sony{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 .navbar-brand{
     width: 50px;
 }
-.navbar-dark .navbar-nav .nav-link, #navbar-sony form .nav-link.dropdown-toggle{
-    color: black;
-    font-weight: bold;
-}
-.navbar-dark .navbar-nav .nav-link:hover, #navbar-sony form .nav-link.dropdown-toggle:hover{
-    color: rgb(50, 50, 207);
+ #navbar-sony form .nav-link.dropdown-toggle:hover{
+    color: rgb(3, 3, 3);
 }
 #navbar-sony form{
     display: flex;
@@ -17,8 +33,74 @@
 }
 .nav-link.search i{
     color: black;
-    font-size: 50px;
+    font-size: 20px;
 }
 .navbar-toggler-icon{
     color: black;
 }
+/* BANNER-ITEMS */
+.banner-items{
+    height: 800px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;    
+}
+.contain-banner-items{
+    padding: 30px 0;
+}
+.contain-banner-items a{
+    display: inline-block;
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+.contain-banner-items li{
+    margin:  calc(1.25rem + .1vw) 0px;
+    list-style: none;
+}
+.title-banner{
+    max-width: 320px;
+}
+.title-banner>img{
+    width: 100%;
+}
+ol, ul {
+    padding-left:0;
+}
+/*  */
+/* animated-grid */
+#animated-grid>div {
+   padding: 50px 1vw;  
+}
+@media all and (min-width:1100px) {
+    #animated-grid>div {
+        padding: 50px 20px;  
+     }
+}
+.grid-item{
+   padding: 3px;
+   border-radius: 15px;
+   transition: all 0.2s linear 0s;
+   position: relative;
+   bottom: 0;
+}
+.grid-item:hover{
+    position: relative;
+    bottom: 15px;
+}
+.grid-item:active{
+    border: 3px solid blue;
+}
+.grid-item img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    filter: opacity(.7);
+}
+.grid-item:hover img{
+    filter: opacity(1);
+}
+/*  */
