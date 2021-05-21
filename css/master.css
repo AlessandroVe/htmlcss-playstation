@@ -13,11 +13,12 @@ body{
     height: 30%;
 }
 /*  */
-/* NAV  *//* sovrascrizione navbar si bootstrap */
+/* NAV  *//* sovrascrizione navbar di bootstrap */
 #navbar-sony{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1100;
 }
 .navbar-brand{
     width: 50px;
@@ -73,16 +74,15 @@ ol, ul {
 /*  */
 /* animated-grid */
 #animated-grid>div {
-   padding: 50px 1vw;  
+   padding: 0px .5vw;  
 }
 @media all and (min-width:1100px) {
     #animated-grid>div {
-        padding: 50px 20px;  
+        padding: 0px 5px;  
      }
 }
 .grid-item{
-   padding: 3px;
-   border-radius: 15px;
+   margin: 20px 0;
    transition: all 0.2s linear 0s;
    position: relative;
    bottom: 0;
@@ -91,8 +91,15 @@ ol, ul {
     position: relative;
     bottom: 15px;
 }
-.grid-item:active{
-    border: 3px solid blue;
+.grid-item a{
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;   
+    padding: 3px;
+    transition: all 0.1s linear 0s;
+}
+.grid-item a:focus{
+    border: 3px solid rgb(85, 85, 231);
 }
 .grid-item img{
     width: 100%;
@@ -104,3 +111,10 @@ ol, ul {
     filter: opacity(1);
 }
 /*  */
+/* show-ps5 */
+#top-ps5-layout{
+    text-align: center;
+}
+#third-ps5-layout img{
+    width: 100%;
+}
