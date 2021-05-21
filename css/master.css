@@ -197,6 +197,28 @@ ol, ul {
     background-color:rgb(85, 85, 231) ;
     color: white;
     border-radius: 30px;
-
 }
-/*  */
+/* subscriptions-banner */
+.subscriptions-banner{
+    background-color: rgb(184, 182, 182);
+    margin-top: 150px;
+}
+.subscriptions-layout-left div{
+    padding: 25px 0px;
+}
+.subscriptions-layout-left img{
+    max-width:300px;
+    margin-bottom: 25px;
+}
+.subscriptions-layout-left a{
+    margin-top: 25px;
+    color:rgb(85, 85, 231) ;
+    display:inline-block;
+    padding: 8px;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    border-radius: 30px;
+}
+.subscriptions-layout-right img{
+    width: 100%;
+}
