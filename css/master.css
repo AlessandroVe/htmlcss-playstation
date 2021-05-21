@@ -118,21 +118,40 @@ ol, ul {
 #top-ps5-layout{
     text-align: center;
 }
+#second-ps5-layout a{
+  text-decoration: none;
+  color: white;
+  background-color:rgb(85, 85, 231);
+  padding: 13px;
+  position: relative;
+  top: 30px;
+  border-radius: 30px;
+}
 #third-ps5-layout img{
     width: 100%;
+}
+.blue{
+    color: rgb(85, 85, 231);
 }
 .grey{
     color: grey;
 }
 .ps5-layout-items a{
+    color: grey;
+    text-decoration: none;
     text-align: center;
     display: inline-block;
     width: 100%;
     transition: all 0.1s linear 0s;
 }
 .ps5-layout-items a:focus{
-    border-bottom:3px solid rgb(85, 85, 231) ;
+    border-bottom:3px solid rgb(85, 85, 231);
+    color: black;
 }
 .ps5-layout-items img{
     width: 100%;
+}
+.ps5-layout-items i{
+    vertical-align: super;
+    font-size: 10px;
 }
