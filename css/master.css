@@ -87,11 +87,13 @@ ol, ul {
 }
 .grid-item{
    margin: 20px 0;
+   border-radius: 20px;
    transition: all 0.2s linear 0s;
    position: relative;
    bottom: 0;
 }
 .grid-item:hover{
+    box-shadow: 1px 15px 10px grey;
     position: relative;
     bottom: 15px;
 }
