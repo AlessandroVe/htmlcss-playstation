@@ -178,5 +178,25 @@ ol, ul {
 }
 /*  */
 /* show-ps4 */
+#show-ps4{
+    text-align: center;
+}
+#show-ps4 div:first-child{
+    margin-top: 50px;
+}
+#show-ps4 section> img{
+    width: 100%;
+}
+#show-ps4 section{
+    margin-top: 100px;
+}
+#show-ps4 section a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color:rgb(85, 85, 231) ;
+    color: white;
+    border-radius: 30px;
 
+}
 /*  */
