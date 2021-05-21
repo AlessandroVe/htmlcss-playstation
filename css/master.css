@@ -112,9 +112,27 @@ ol, ul {
 }
 /*  */
 /* show-ps5 */
+#show-ps5{
+    margin: 160px 0;
+}
 #top-ps5-layout{
     text-align: center;
 }
 #third-ps5-layout img{
+    width: 100%;
+}
+.grey{
+    color: grey;
+}
+.ps5-layout-items a{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.1s linear 0s;
+}
+.ps5-layout-items a:focus{
+    border-bottom:3px solid rgb(85, 85, 231) ;
+}
+.ps5-layout-items img{
     width: 100%;
 }
