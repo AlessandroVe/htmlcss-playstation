@@ -78,7 +78,7 @@ ol, ul {
 /*  */
 /* animated-grid */
 #animated-grid>div {
-   padding: 0px .5vw;  
+   padding: 0px .4vw;  
 }
 @media all and (min-width:1100px) {
     #animated-grid>div {
@@ -101,11 +101,11 @@ ol, ul {
     display: inline-block;
     width: 100%;
     border-radius: 15px;   
-    padding: 3px;
     transition: all 0.1s linear 0s;
 }
 .grid-item a:focus{
     border: 3px solid rgb(85, 85, 231);
+    padding: 3px 
 }
 .grid-item img{
     width: 100%;
@@ -224,3 +224,18 @@ ol, ul {
 .subscriptions-layout-right img{
     width: 100%;
 }
+/* DISCOVER-GRID */
+.discover-grid{
+    margin-top: 150px;
+    text-align: center;
+}
+.discover-grid-top h1,.discover-grid-top h4{
+    margin-bottom: 30px;
+}
+.discover-grid>section {
+    margin-top: 30px;
+}
+.discover-grid>section img{
+    width: 100%;;
+}
+/*  */
