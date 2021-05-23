@@ -269,6 +269,28 @@ div.col-md-8>div{
     background-color:rgb(7, 7, 85);
 }
 /*  */
+/* COOKIE */
+#cookie a{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: blue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;  
+    transition: all .1s linear 0s;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#cookie a:focus{
+    bottom: -100%;
+}
+#cookie span{
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+/*  */
 /* FOLLOW-US */
 #follow-us{
     margin-bottom: 200px;
