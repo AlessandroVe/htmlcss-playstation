@@ -49,15 +49,10 @@ body{
     animation-duration: 30s;
     animation-iteration-count: infinite;
 }
-.banner-items{
-    height: 800px;
-    background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
+.first-banner .title-banner{
     background-position: center;
-    color: white;    
-}
-.contain-banner-items{
-    padding: 30px 0;
+    background-size: cover;
+    animation: logo-banner-transition 30s  0s infinite;
 }
 .first-banner .contain-banner-items h1::after{
     content: "Rompi il cerchio";
@@ -70,6 +65,16 @@ body{
     animation-name: text-transition;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+}
+.banner-items{
+    height: 800px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;    
+}
+.contain-banner-items{
+    padding: 30px 0;
 }
 .contain-banner-items a{
     display: inline-block;
@@ -364,6 +369,66 @@ footer ul{
         color: white;
         background-image: url(../img/jumbo-bg.png);
     }
+}
+/* BANNER-ITEMS /// TITLE-BANNER */
+@keyframes logo-banner-transition {
+    /* returnal */
+    0%{
+        background-image: url(../img/returnal-hero-banner-logo.png);
+        height: 50px;
+    }
+    15%{
+        background-image: url(../img/returnal-hero-banner-logo.png);
+        height: 50px;
+    }
+    /* RATCHET */
+    16%{
+        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/lKD595A3JYCqbQFcGqCHkkQK.png);
+        height: 145px;
+    }
+    31%{
+        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/lKD595A3JYCqbQFcGqCHkkQK.png);
+        height: 145px;
+    }
+    /* DESTINY */
+    32%{
+        background-image: url(https://www.seekpng.com/png/full/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
+        height: 87px;      
+    }
+    47%{
+        background-image: url(https://www.seekpng.com/png/full/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
+        height: 87px;
+    }
+    /* DAYSGONE */
+    48%{
+        background-image: url(https://userguides.eu.playstation.com/wp-content/uploads/2019/01/Days-Gone-Logo_Gamer-Guide-1.png);
+        height: 80px;   
+    }
+    63%{
+        background-image: url(https://userguides.eu.playstation.com/wp-content/uploads/2019/01/Days-Gone-Logo_Gamer-Guide-1.png);
+        height: 80px;
+    }
+    /* KNOCK OUT */
+    64%{
+        background-image: url(https://media.contentapi.ea.com/content/dam/eacom/c-ko/homepage/common/koc-hero-logo.svg);
+        height: 198px;
+    }
+    79%{
+        background-image: url(https://media.contentapi.ea.com/content/dam/eacom/c-ko/homepage/common/koc-hero-logo.svg);
+        height: 198px;
+    }
+    /*Judgment  */
+    80%{
+        background-image: url(https://ksr-ugc.imgix.net/assets/020/966/358/17f8b37b5184f73ea4d96d31153ce04e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1524317338&auto=format&frame=1&q=92&s=1359aa8c0a8fb253b18717ef5abef931);
+        height: 170px;
+
+    }
+    99%{
+        background-image: url(https://ksr-ugc.imgix.net/assets/020/966/358/17f8b37b5184f73ea4d96d31153ce04e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1524317338&auto=format&frame=1&q=92&s=1359aa8c0a8fb253b18717ef5abef931);
+        height: 170px;
+    }
+
+
 }
 /* BANNER-ITEMS // H1*/
 @keyframes  title-text-transition{
