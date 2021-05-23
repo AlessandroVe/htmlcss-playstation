@@ -60,6 +60,16 @@ body{
 .contain-banner-items{
     padding: 30px 0;
 }
+.first-banner .contain-banner-items h1::after{
+    content: "Rompi il cerchio";
+    animation-name: title-text-transition;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.first-banner .contain-banner-items p::after{
+    content: "Rialzati dopo ogni sconfitta e afforonta  una nuova sfida dopo ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.";
+}
 .contain-banner-items a{
     display: inline-block;
     padding: 15px;
@@ -328,5 +338,44 @@ footer ul{
     100%{
         color: white;
         background-image: url(../img/jumbo-bg.png);
+    }
+}
+/* BANNER-ITEMS  H1*/
+@keyframes   title-text-transition{
+    /* returnal */
+    0%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rompi il cerchio";
+        
+    }
+    /* RATCHET */
+    16%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "La Potenza di PS5 al servizio di un Lombax";
+    }
+    /* DESTINY */
+    32%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "BRANDISCI L'OSCURITÀ";
+    }
+    /* DAYSGONE */
+    48%{
+        background-color:rgba(110, 110, 110, 0);
+        content: "Disponibile ora su PC";
+    }
+    /* KNOCK OUT */
+    64%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "A tutti i combattenti";
+    }
+    /*Judgment  */
+    80%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "DISPONIBILE ORA PER PS5™";
+    }
+    /* returnal */
+    100%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rompi il cerchio";
     }
 }
