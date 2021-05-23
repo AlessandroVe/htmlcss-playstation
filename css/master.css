@@ -46,8 +46,7 @@ body{
 /* BANNER-ITEMS */
 .banner-items.first-banner{
     animation-name: banner-transition;
-    animation-duration: 15s;
-    animation-delay: 1s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
 }
 .banner-items{
@@ -63,12 +62,14 @@ body{
 .first-banner .contain-banner-items h1::after{
     content: "Rompi il cerchio";
     animation-name: title-text-transition;
-    animation-duration: 15s;
-    animation-delay: 1s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
 }
 .first-banner .contain-banner-items p::after{
     content: "Rialzati dopo ogni sconfitta e afforonta  una nuova sfida dopo ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.";
+    animation-name: text-transition;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 .contain-banner-items a{
     display: inline-block;
@@ -309,8 +310,16 @@ footer ul{
         color: white;
         background-image: url(../img/jumbo-bg.png);
     }
+    15%{
+        color: white;
+        background-image: url(../img/jumbo-bg.png);
+    }
     /* RATCHET */
     16%{
+        color: white;
+        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/UzL9pZa8l5U5q48fNXlOHVSm.jpg)
+    }
+    31%{
         color: white;
         background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/UzL9pZa8l5U5q48fNXlOHVSm.jpg)
     }
@@ -319,8 +328,16 @@ footer ul{
         color: white;
         background-image: url(https://www.playstationzone.it/wp-content/uploads/2017/08/Destiny-2.jpg);
     }
+    47%{
+        color: white;
+        background-image: url(https://www.playstationzone.it/wp-content/uploads/2017/08/Destiny-2.jpg);
+    }
     /* DAYSGONE */
     48%{
+        color: white;
+        background-image: url(https://www.vgn.it/wp-content/uploads/2019/04/Days-Gone-Recensione-PS4.jpg);
+    }
+    63%{
         color: white;
         background-image: url(https://www.vgn.it/wp-content/uploads/2019/04/Days-Gone-Recensione-PS4.jpg);
     }
@@ -329,8 +346,16 @@ footer ul{
         color: white;
         background-image: url(https://www.vigamusmagazine.com/wp-content/uploads/2021/04/knockout_city-5399232.jpg);
     }
+    79%{
+        color: white;
+        background-image: url(https://www.vigamusmagazine.com/wp-content/uploads/2021/04/knockout_city-5399232.jpg);
+    }
     /*Judgment  */
     80%{
+        color: black;
+        background-image: url(https://upload.wikimedia.org/wikipedia/it/8/88/Judgment_%28videogioco%29.jpg);
+    }
+    99%{
         color: black;
         background-image: url(https://upload.wikimedia.org/wikipedia/it/8/88/Judgment_%28videogioco%29.jpg);
     }
@@ -340,10 +365,15 @@ footer ul{
         background-image: url(../img/jumbo-bg.png);
     }
 }
-/* BANNER-ITEMS  H1*/
-@keyframes   title-text-transition{
+/* BANNER-ITEMS // H1*/
+@keyframes  title-text-transition{
     /* returnal */
     0%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rompi il cerchio";
+        
+    }
+    15%{
         background-color: rgba(110, 110, 110, 0);
         content: "Rompi il cerchio";
         
@@ -353,8 +383,16 @@ footer ul{
         background-color: rgba(110, 110, 110, 0);
         content: "La Potenza di PS5 al servizio di un Lombax";
     }
+    31%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "La Potenza di PS5 al servizio di un Lombax";
+    }
     /* DESTINY */
     32%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "BRANDISCI L'OSCURITÀ";
+    }
+    47%{
         background-color: rgba(110, 110, 110, 0.3);
         content: "BRANDISCI L'OSCURITÀ";
     }
@@ -363,8 +401,16 @@ footer ul{
         background-color:rgba(110, 110, 110, 0);
         content: "Disponibile ora su PC";
     }
+    63%{
+        background-color:rgba(110, 110, 110, 0);
+        content: "Disponibile ora su PC";
+    }
     /* KNOCK OUT */
     64%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "A tutti i combattenti";
+    }
+    79%{
         background-color: rgba(110, 110, 110, 0.3);
         content: "A tutti i combattenti";
     }
@@ -373,9 +419,77 @@ footer ul{
         background-color: rgba(110, 110, 110, 0);
         content: "DISPONIBILE ORA PER PS5™";
     }
+    99%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "DISPONIBILE ORA PER PS5™";
+    }
     /* returnal */
     100%{
         background-color: rgba(110, 110, 110, 0);
         content: "Rompi il cerchio";
+    }
+}
+/* BANNER-ITEMS // P*/
+@keyframes   text-transition{
+    /* returnal */
+    0%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rialzati dopo ogni sconfitta e afforonta  una nuova sfida dopo ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.";
+        
+    }
+    15%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rialzati dopo ogni sconfitta e afforonta  una nuova sfida dopo ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.";
+        
+    }
+    /* RATCHET */
+    16%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Accompagna il Lombax più amato della galassia e il suo amico di latta in un nuovo gioco ispirato all'appassionante episodio di debutto di questo intrepido duo.";
+    }
+    31%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Accompagna il Lombax più amato della galassia e il suo amico di latta in un nuovo gioco ispirato all'appassionante episodio di debutto di questo intrepido duo.";
+    }
+    /* DESTINY */
+    32%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "Preparati ad attività, equipaggiamento e armi esotiche completamente nuove e all'attesissimo ritorno del raid Volta di Vetro.";
+    }
+    47%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "Preparati ad attività, equipaggiamento e armi esotiche completamente nuove e all'attesissimo ritorno del raid Volta di Vetro.";
+    }
+    /* DAYSGONE */
+    48%{
+        background-color:rgba(110, 110, 110, 0);
+        content: "Sali in sella e avventurati in un mondo dilaniato da una letale pandemia nel ruolo del cacciatore di taglie Deacon St. John.";
+    }
+    63%{
+        background-color:rgba(110, 110, 110, 0);
+        content: "Sali in sella e avventurati in un mondo dilaniato da una letale pandemia nel ruolo del cacciatore di taglie Deacon St. John.";
+    }
+    /* KNOCK OUT */
+    64%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "Solo per 10 giorni lotta su qualsiasi mappa, con qualsiasi palla, in qualsiasi stile, ascoltando qualsiasi playlist: nessun livello massimo, nessuna barriera.";
+    }
+    79%{
+        background-color: rgba(110, 110, 110, 0.3);
+        content: "Solo per 10 giorni lotta su qualsiasi mappa, con qualsiasi palla, in qualsiasi stile, ascoltando qualsiasi playlist: nessun livello massimo, nessuna barriera.";
+    }
+    /*Judgment  */
+    80%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Segui i sospettati, scopri gli indizi e porta le prove in tribunale. Ma attenzione, troverai personaggi oscuri dietro ogni angolo.";
+    }
+    99%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Segui i sospettati, scopri gli indizi e porta le prove in tribunale. Ma attenzione, troverai personaggi oscuri dietro ogni angolo.";
+    }
+    /* returnal */
+    100%{
+        background-color: rgba(110, 110, 110, 0);
+        content: "Rialzati dopo ogni sconfitta e afforonta  una nuova sfida dopo ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.";
     }
 }
