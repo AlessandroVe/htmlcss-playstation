@@ -179,8 +179,8 @@ ol, ul {
 .ps5-layout-items img{
     width: 100%;
 }
-/* /* SHOW-PS5 +  BANNER-ITEMS  */
-#show-ps5+.banner-items{
+/* /*  BANNER-ITEMS - second-banner  */
+.banner-items.second-banner{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 /*  */
@@ -276,7 +276,7 @@ div.col-md-8>div{
 /* FOOTER */
 footer{
     background-color:rgb(22, 22, 212) ;
-    padding-top: 150px;
+    padding: 100px 0;
 }
 footer.pd{
     padding: 100px 8.5vw ;
@@ -427,8 +427,6 @@ footer ul{
         background-image: url(https://ksr-ugc.imgix.net/assets/020/966/358/17f8b37b5184f73ea4d96d31153ce04e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1524317338&auto=format&frame=1&q=92&s=1359aa8c0a8fb253b18717ef5abef931);
         height: 170px;
     }
-
-
 }
 /* BANNER-ITEMS // H1*/
 @keyframes  title-text-transition{
