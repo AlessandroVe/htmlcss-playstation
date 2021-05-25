@@ -322,47 +322,47 @@ footer ul{
     /* RATCHET */
     16%{
         color: white;
-        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/UzL9pZa8l5U5q48fNXlOHVSm.jpg)
+        background-image: url(../img/ratchet.png)
     }
     31%{
         color: white;
-        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/UzL9pZa8l5U5q48fNXlOHVSm.jpg)
+        background-image: url(../img/ratchet.png)
     }
     /* DESTINY */
     32%{
         color: white;
-        background-image: url(https://www.playstationzone.it/wp-content/uploads/2017/08/Destiny-2.jpg);
+        background-image: url(../img/Destiny-2.jpg);
     }
     47%{
         color: white;
-        background-image: url(https://www.playstationzone.it/wp-content/uploads/2017/08/Destiny-2.jpg);
+        background-image: url(../img/Destiny-2.jpg);
     }
     /* DAYSGONE */
     48%{
         color: white;
-        background-image: url(https://www.vgn.it/wp-content/uploads/2019/04/Days-Gone-Recensione-PS4.jpg);
+        background-image: url(../img/Days-Gone-Recensione-PS4.jpg);
     }
     63%{
         color: white;
-        background-image: url(https://www.vgn.it/wp-content/uploads/2019/04/Days-Gone-Recensione-PS4.jpg);
+        background-image: url(../img/Days-Gone-Recensione-PS4.jpg);
     }
     /* KNOCK OUT */
     64%{
         color: white;
-        background-image: url(https://www.vigamusmagazine.com/wp-content/uploads/2021/04/knockout_city-5399232.jpg);
+        background-image: url(../img/knockout_city-5399232.jpg);
     }
     79%{
         color: white;
-        background-image: url(https://www.vigamusmagazine.com/wp-content/uploads/2021/04/knockout_city-5399232.jpg);
+        background-image: url(../img/knockout_city-5399232.jpg);
     }
     /*Judgment  */
     80%{
         color: black;
-        background-image: url(https://upload.wikimedia.org/wikipedia/it/8/88/Judgment_%28videogioco%29.jpg);
+        background-image: url(../img/Judgment.jpg);
     }
     99%{
         color: black;
-        background-image: url(https://upload.wikimedia.org/wikipedia/it/8/88/Judgment_%28videogioco%29.jpg);
+        background-image: url(../img/Judgment.jpg);
     }
     /* returnal */
     100%{
@@ -383,48 +383,48 @@ footer ul{
     }
     /* RATCHET */
     16%{
-        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/lKD595A3JYCqbQFcGqCHkkQK.png);
+        background-image: url(../img/ratchet-logo_banner.png);
         height: 145px;
     }
     31%{
-        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202101/2819/lKD595A3JYCqbQFcGqCHkkQK.png);
+        background-image: url(../img/ratchet-logo_banner.png);
         height: 145px;
     }
     /* DESTINY */
     32%{
-        background-image: url(https://www.seekpng.com/png/full/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
+        background-image: url(../img/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
         height: 87px;      
     }
     47%{
-        background-image: url(https://www.seekpng.com/png/full/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
+        background-image: url(../img/145-1457000_destiny-2-png-logo-destiny-2-logo-png.png);
         height: 87px;
     }
     /* DAYSGONE */
     48%{
-        background-image: url(https://userguides.eu.playstation.com/wp-content/uploads/2019/01/Days-Gone-Logo_Gamer-Guide-1.png);
+        background-image: url(../img/Days-Gone-Logo_Gamer-Guide-1.png);
         height: 80px;   
     }
     63%{
-        background-image: url(https://userguides.eu.playstation.com/wp-content/uploads/2019/01/Days-Gone-Logo_Gamer-Guide-1.png);
+        background-image: url(../img/Days-Gone-Logo_Gamer-Guide-1.png);
         height: 80px;
     }
     /* KNOCK OUT */
     64%{
-        background-image: url(https://media.contentapi.ea.com/content/dam/eacom/c-ko/homepage/common/koc-hero-logo.svg);
+        background-image: url(../img/koc-hero-logo.svg);
         height: 198px;
     }
     79%{
-        background-image: url(https://media.contentapi.ea.com/content/dam/eacom/c-ko/homepage/common/koc-hero-logo.svg);
+        background-image: url(../img/koc-hero-logo.svg);
         height: 198px;
     }
     /*Judgment  */
     80%{
-        background-image: url(https://ksr-ugc.imgix.net/assets/020/966/358/17f8b37b5184f73ea4d96d31153ce04e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1524317338&auto=format&frame=1&q=92&s=1359aa8c0a8fb253b18717ef5abef931);
+        background-image: url(../img/17f8b37b5184f73ea4d96d31153ce04e_original.png);
         height: 170px;
 
     }
     99%{
-        background-image: url(https://ksr-ugc.imgix.net/assets/020/966/358/17f8b37b5184f73ea4d96d31153ce04e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1524317338&auto=format&frame=1&q=92&s=1359aa8c0a8fb253b18717ef5abef931);
+        background-image: url(../img/17f8b37b5184f73ea4d96d31153ce04e_original.png);
         height: 170px;
     }
 }
